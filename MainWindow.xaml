@@ -1,0 +1,31 @@
+﻿<Window x:Class="Jogo_dos_Erros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jogo_dos_Erros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="White">
+        <Image HorizontalAlignment="Left" Height="600" Margin="10,78,0,0" VerticalAlignment="Top" Width="500" Source="/imagem1.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="500" Source="/imagem2.jpeg" Margin="538,78,0,0"/>
+        <Image x:Name="acerto2" HorizontalAlignment="Left" Height="56" Margin="823,260,0,0" VerticalAlignment="Top" Width="63" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto1" HorizontalAlignment="Left" Height="56" Margin="590,246,0,0" VerticalAlignment="Top" Width="64" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto6" HorizontalAlignment="Left" Height="50" Margin="607,504,0,0" VerticalAlignment="Top" Width="49" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto7" HorizontalAlignment="Left" Height="42" Margin="678,474,0,0" VerticalAlignment="Top" Width="43" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto3" HorizontalAlignment="Left" Height="48" Margin="928,350,0,0" VerticalAlignment="Top" Width="50" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto5" HorizontalAlignment="Left" Height="42" Margin="538,606,0,0" VerticalAlignment="Top" Width="47" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="acerto4" HorizontalAlignment="Left" Height="35" Margin="744,600,0,0" VerticalAlignment="Top" Width="41" Source="/verifica.png" Visibility="Hidden"/>
+        <Image x:Name="png1" HorizontalAlignment="Left" Height="37" Margin="588,253,0,0" VerticalAlignment="Top" Width="48" Source="/imagem-invisivel.png" MouseLeftButtonDown="click1"/>
+        <Image x:Name="png2" HorizontalAlignment="Left" Height="85" Margin="823,230,0,0" VerticalAlignment="Top" Width="56" Source="/imagem-invisivel.png" MouseLeftButtonDown="click2"/>
+        <Image x:Name="png6" HorizontalAlignment="Left" Height="133" Margin="520,434,0,0" VerticalAlignment="Top" Width="136" Source="/imagem-invisivel.png" MouseLeftButtonDown="click6" RenderTransformOrigin="-0.952,0.123"/>
+        <Image x:Name="png7" HorizontalAlignment="Left" Height="67" Margin="678,478,0,0" VerticalAlignment="Top" Width="60" Source="/imagem-invisivel.png" MouseLeftButtonDown="click7"/>
+        <Image x:Name="png3" HorizontalAlignment="Left" Height="37" Margin="928,366,0,0" VerticalAlignment="Top" Width="48" Source="/imagem-invisivel.png" MouseLeftButtonDown="click3"/>
+        <Image x:Name="png5" HorizontalAlignment="Left" Height="37" Margin="538,608,0,0" VerticalAlignment="Top" Width="48" Source="/imagem-invisivel.png" MouseLeftButtonDown="click5"/>
+        <Image x:Name="png4" HorizontalAlignment="Left" Height="42" Margin="740,600,0,0" VerticalAlignment="Top" Width="44" Source="/imagem-invisivel.png" MouseLeftButtonDown="click4"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="198" Height="44" FontWeight="Bold" Margin="0,8,0,0"><Run Text="Jogo dos"/><Run Language="pt-br" Text=" 7 "/><Run Text="Erros"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="703,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="#FF3CA010" FontWeight="Bold"><Run Language="pt-br" Text="Ache os Erros"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="154,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="#FF3CA010" FontWeight="Bold"><Run Language="pt-br" Text="Observe a Imagem"/></TextBlock>
+
+    </Grid>
+</Window>

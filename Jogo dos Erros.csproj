@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Jogo_dos_Erros</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="imagem-invisivel.png" />
+    <None Remove="imagem1.jpeg" />
+    <None Remove="imagem2.jpeg" />
+    <None Remove="verifica.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagem-invisivel.png" />
+    <Resource Include="imagem1.jpeg" />
+    <Resource Include="imagem2.jpeg" />
+    <Resource Include="verifica.png" />
+  </ItemGroup>
+
+</Project>
